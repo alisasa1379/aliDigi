@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    padding: unset;
+    height: unset;
+    padding: 10px 0px;
+    position: unset;
+    .menu {
+      nav {
+        ul {
+          flex-flow: row nowrap;
+          justify-content: center;
+          li {
+            width: fit-content;
+            &:hover {
+              background-color: unset;
+            }
+            a {
+              transition: 400ms;
+              &:hover {
+                color: goldenrod;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .menuBtn{
+    display: none;
+  }
+
+  label[for="close"]{
+    display: none;
+  }
